@@ -7,89 +7,96 @@
     <title>Axel T. ML</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" type="image/x-icon" href="../img/logo.jpg" />
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script></head>
 <body>
     <!-- Cabecera -->
     <header>
-        <!-- Logo -->
-        <div>
-            <a href="../index.html"><img class="logo" src="../img/logo.jpg" alt="Logo"></a>
-        </div>
-        <!-- Menu -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">HOME</a>
-                </li>
-                <li>
-                    <a href="./pyautocad.html">PYAUTOCAD</a>
-                </li>
-                <li>
-                    <a href="./plgraphic.html">PLGRAPHIC</a>
-                </li>
-                <li>
-                    <a href="./ml.html">ML</a>
-                </li>
-                <li>
-                    <a href="./contact.html">CONTACTO</a>
-                </li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <!-- Logo -->
+            <a class="navbar-brand logo" href="./index.html"><img class="rounded-circle" src="../img/logo.jpg" alt="Logo"></a>
+            <!-- Hamburger Menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Links -->
+            <div class="collapse navbar-collapse me-2" id="collapsibleNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item ms-2">
+                        <a class="nav-link" href="../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="nav-link" href="../pages/pyautocad.html">PYAUTOCAD</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="nav-link" href="../pages/plgraphic.html">PLGRAPHIC</a>
+                    </li> 
+                    <li class="nav-item ms-2">
+                        <a class="nav-link"href="../pages/ml.html">ML</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="nav-link" href="../pages/contact.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div> 
+        </nav> 
     </header>
     <!-- Main -->
-    <main class="belowHeader">
+    <main class="container-fluid">
         <!-- Descripcion del contenido -->
         <article>
-            <h1 class="title">Machine Learning</h1>
-            <div class="description">
-                <p >Alguna vez escuchaste a alguien hablar de "Machine Learning" e "Inteligencia Artificial"?</p>
-                <p > En los siguientes videos les muestro como es posible entrar al mundo de la inteligencia artificial por medio de AutoCAD</p>
-                <p>Espero que les guste y se vienen más videos así!</p>
+            <h1 class="row title">Machine Learning</h1>
+            <div class="row description">
+                <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-10 offset-sm-1 mt-4 mb-4 ">
+                    <p >Alguna vez escuchaste a alguien hablar de "Machine Learning" e "Inteligencia Artificial"?</p>
+                    <p > En los siguientes videos les muestro como es posible entrar al mundo de la inteligencia artificial por medio de AutoCAD</p>
+                    <p>Espero que les guste y se vienen más videos así!</p>
+                </div>
+                
             </div>
         </article>
         <!-- Tabla de videos -->
-        <section id="mlVideo">
-            <table class="videoTable" cellpadding="10px" cellspacing="10px">
-                <tr>
-                    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/PxxN6lujNSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-                    <td>
-                        <h2>¿MACHINE LEARNING Y AUTOCAD? </h2>
-                        <p>En esta ocasión les traigo nuevas ideas de cómo podemos integrar estas nuevas tecnologías como lo son el machine learning y deep learning que tanto se están haciendo notar en estos últimos años </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/AGMufnrUnTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-                    <td>
-                        <h2>EXPLORANDO CHATGPT Y PYAUTOCAD</h2>
+        <article class="mt-5 mb-5 row youtube-video-section">
+            <!-- Video 1 -->
+            <div class="col-xxl-4 offset-xxl-2 mt-4 mb-4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/PxxN6lujNSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="col-xxl-4 ms-xxl-1 videoDescription">
+                <h2>¿MACHINE LEARNING Y AUTOCAD? </h2>
+                <p>En esta ocasión les traigo nuevas ideas de cómo podemos integrar estas nuevas tecnologías como lo son el machine learning y deep learning que tanto se están haciendo notar en estos últimos años </p>
+            </div>
+            <!-- Video 2 -->
+            <div class="col-xxl-4 offset-xxl-2 mt-4 mb-4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/AGMufnrUnTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="col-xxl-4 ms-xxl-1 videoDescription">
+                <h2>EXPLORANDO CHATGPT Y PYAUTOCAD</h2>
                         <p>En esta ocasión quise como no traerles mis pruebas utilizando el famoso ChatGPT de OpenAI para escribir código de pyautocad, y sinceramente estoy bastante impresionado con los resultados.</p>
-                    </td>
-                </tr>
-            </table>
-            <!-- Link para el canal de YT -->
-            <div class="middleButton">
-                <a href="https://www.youtube.com/@AxelTag" target="_blank">Mas videos...</a>
+            </div>
+        </article>
+
+        <!-- Link para el canal de YT -->
+        <section class="container mb-5" >
+            <div class="row">
+                <div class="col text-center">
+                    <a class="btn btn-primary" href="https://www.youtube.com/@AxelTag" target="_blank">Mas videos...</a>
+                </div>
             </div>
         </section>
     </main>
     <!-- Footer -->
     <footer>
         <!-- Menu -->
-        <nav>
-            <ul>
-                <li>
-                    <p>Apoya mi contenido:</p>
+        <nav class="navbar navbar-expand bg-dark navbar-dark mt-auto justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <p class="navbar-text">Apoya mi contenido:</p>
                 </li>
-                <li>
-                    <a href="https://www.patreon.com/AxelT" target="_blank">PATREON</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.patreon.com/AxelT" target="_blank">PATREON</a>
                 </li>
-                <li>
-                    <a href="https://cafecito.app/axeltonsite" target="_blank">CAFECITO</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://cafecito.app/axeltonsite" target="_blank">CAFECITO</a>
                 </li>
             </ul>
         </nav>
