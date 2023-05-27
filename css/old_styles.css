@@ -55,8 +55,55 @@
 
 
 
-
-/* header*/
+/* HEADER */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99999;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(26, 37, 53);
+    padding: 0px 30px;
+}
+header div{
+    order: 1;
+    /* display: inline; */
+    left: 0;
+    height: 80px;
+    width: 10vw;
+    
+}
+header nav{
+    order: 2;
+    /* display: flex; */
+    /* align-items: center; */
+}
+header nav ul{
+    /* display: flex; */
+    list-style-type: None;
+}
+.logo img{
+    height: 80px;
+    border-radius: 50%;
+    padding: 10px;
+}
+header nav ul li{
+    margin-left: 25px;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: None;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    
+}
+header nav ul li a:hover {
+    color: rgb(39, 153, 137);
+}
 
 
 

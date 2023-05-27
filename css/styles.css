@@ -1,50 +1,63 @@
-
-/* HEADER */
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    z-index: 99999;
-    height: 80px;
-    width: 100%;
-    background-color: rgb(26, 37, 53);
-    padding: 0px 30px;
-}
-header div{
-    order: 1;
-    /* display: inline; */
-    left: 0;
-    height: 80px;
-    width: 10vw;
-    
-}
-header nav{
-    order: 2;
-    /* display: flex; */
-    /* align-items: center; */
-}
-header nav ul{
-    /* display: flex; */
-    list-style-type: None;
+/* Clases generales */
+body {
+    padding-top: 76px;
 }
 .logo img{
-    height: 80px;
-    border-radius: 50%;
-    padding: 10px;
+    height: 50px;
 }
-header nav ul li{
-    margin-left: 25px;
-}
-header nav ul li a{
+.title{
+    height: 100px;
+    background-color: rgb(39, 153, 137);
+    font-family: 'Playfair Display', serif;
     color: white;
-    text-decoration: None;
-    font-family: 'Lato', sans-serif;
     font-weight: 100;
-    font-size: 20px;
-    
+    font-size: 40px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
 }
-header nav ul li a:hover {
-    color: rgb(39, 153, 137);
+.description{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    line-height: 40px;
+    text-justify: auto;
+}
+
+/* Home */
+#homepageVideo {
+    min-height: 400px;
+    min-width: 100vw;
+}
+
+/* Pyautocad y ML*/
+.videoDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.youtube-video-section iframe{
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    display: block;
+}
+
+/* Plgraphic */
+.carousel-control-next,
+.carousel-control-prev, 
+.carousel-indicators button/*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+.cover{
+    object-fit: cover;
+    margin:20px;
+}
+
+/* Contact */
+.contactLinks img{
+    height: 50px;
+    width: 50px;
+}
+.full-screen {
+    height: 100vh;
 }
