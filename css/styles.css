@@ -1,63 +1,71 @@
 /* Clases generales */
 body {
-    padding-top: 76px;
+  padding-top: 76px;
 }
-.logo img{
-    height: 50px;
+
+.logo img {
+  height: 50px;
 }
-.title{
-    height: 100px;
-    background-color: rgb(39, 153, 137);
-    font-family: 'Playfair Display', serif;
-    color: white;
-    font-weight: 100;
-    font-size: 40px;
-    display: flex;
-    align-items:center;
-    justify-content:center;
+
+.title {
+  height: 100px;
+  background-color: rgb(39, 153, 137);
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-weight: 100;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.description{
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    line-height: 40px;
-    text-justify: auto;
+
+.description {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  line-height: 40px;
+  text-justify: auto;
 }
 
 /* Home */
 #homepageVideo {
-    min-height: 400px;
-    min-width: 100vw;
+  min-height: 420px;
+  min-width: 100vw;
 }
 
 /* Pyautocad y ML*/
 .videoDescription {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.youtube-video-section iframe{
-    height: 200px;
-    width: 400px;
-    margin: auto;
-    display: block;
+
+.youtube-video-section iframe {
+  height: 200px;
+  width: 400px;
+  margin: auto;
+  display: block;
 }
 
 /* Plgraphic */
 .carousel-control-next,
-.carousel-control-prev, 
-.carousel-indicators button/*, .carousel-indicators */ {
-    filter: invert(100%);
+.carousel-control-prev,
+.carousel-indicators button {
+  filter: invert(100%);
 }
-.cover{
-    object-fit: cover;
-    margin:20px;
+
+.cover {
+  object-fit: cover;
+  margin: 20px;
 }
 
 /* Contact */
-.contactLinks img{
-    height: 50px;
-    width: 50px;
+.contactLinks img {
+  height: 50px;
+  width: 50px;
 }
+
 .full-screen {
-    height: 100vh;
+  height: 100vh;
 }
+
+/*# sourceMappingURL=styles.css.map */
