@@ -1,0 +1,25 @@
+$primary-font: 'Playfair Display', serif;
+
+/* Textos generales */
+.title{
+    height: 100px;
+    font-family: $primary-font;
+    font-weight: 100;
+    font-size: 40px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.description{
+    font-family: $primary-font;
+    font-size: 20px;
+    line-height: 40px;
+    text-justify: auto;
+}
+
+/* Description de videos para Pyautocad y ML*/
+.videoDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

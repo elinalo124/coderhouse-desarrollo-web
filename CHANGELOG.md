@@ -11,3 +11,10 @@ All notable changes to this project will be documented in this file
 ### Changed
 
 - Added bootstrap for responsive page.
+
+
+## [0.0.2] - 2023-6-10
+
+### Added
+
+- Sass

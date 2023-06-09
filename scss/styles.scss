@@ -1,63 +1,9 @@
-/* Clases generales */
-body {
-    padding-top: 76px;
-}
-.logo img{
-    height: 50px;
-}
-.title{
-    height: 100px;
-    background-color: rgb(39, 153, 137);
-    font-family: 'Playfair Display', serif;
-    color: white;
-    font-weight: 100;
-    font-size: 40px;
-    display: flex;
-    align-items:center;
-    justify-content:center;
-}
-.description{
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    line-height: 40px;
-    text-justify: auto;
-}
+/* Modules and variables */
+@import "modules/colors";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
-/* Home */
-#homepageVideo {
-    min-height: 420px;
-    min-width: 100vw;
-}
-
-/* Pyautocad y ML*/
-.videoDescription {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.youtube-video-section iframe{
-    height: 200px;
-    width: 400px;
-    margin: auto;
-    display: block;
-}
-
-/* Plgraphic */
-.carousel-control-next,
-.carousel-control-prev, 
-.carousel-indicators button/* .carousel-indicators */ {
-    filter: invert(100%);
-}
-.cover{
-    object-fit: cover;
-    margin:20px;
-}
-
-/* Contact */
-.contactLinks img{
-    height: 50px;
-    width: 50px;
-}
-.full-screen {
-    height: 100vh;
-}
+/* Partials */
+@import "partials/images";
+@import "partials/typography";
+@import "partials/videos";
+@import "partials/layout";

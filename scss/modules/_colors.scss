@@ -1,0 +1,10 @@
+/* Change default theme */
+$primary: rgb(39, 153, 137);
+$secondary: rgb(26, 37, 53);
+
+/* Plgraphic */
+.carousel-control-next,
+.carousel-control-prev, 
+.carousel-indicators button/* .carousel-indicators */ {
+    filter: invert(100%);
+}
