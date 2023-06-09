@@ -1,0 +1,9 @@
+# IDE related files
+.idea
+.vscode
+
+# Version control related files
+.git
+
+# Dependencies foldes
+node_modules
