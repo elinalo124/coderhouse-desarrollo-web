@@ -1,13 +1,16 @@
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
 /* Home */
 #homepageVideo {
-    min-height: 420px;
-    min-width: 100vw;
+    @include sizes(100vw, 420px);
 }
 
 /* Pyautocad y ML*/
 .youtube-video-section iframe{
-    height: 200px;
-    width: 400px;
+    @include sizes(400px, 200px);
     margin: auto;
     display: block;
 }

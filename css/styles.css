@@ -11886,13 +11886,14 @@ textarea.form-control-lg {
 
 /* Textos generales */
 .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100px;
   font-family: "Playfair Display", serif;
   font-weight: 100;
   font-size: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
 
 .description {
@@ -11905,14 +11906,15 @@ textarea.form-control-lg {
 /* Description de videos para Pyautocad y ML*/
 .videoDescription {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* Home */
 #homepageVideo {
-  min-height: 420px;
-  min-width: 100vw;
+  height: 420px;
+  width: 100vw;
 }
 
 /* Pyautocad y ML*/
@@ -11928,6 +11930,18 @@ body {
   padding-top: 76px;
 }
 
+#collapsibleNavbar a {
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 1400px) {
+  #collapsibleNavbar a {
+    margin-left: 0px;
+  }
+  #collapsibleNavbar a:hover {
+    transform: scale(1.1, 1.1);
+  }
+}
 /* Contact full screen*/
 .full-screen {
   height: 100vh;
