@@ -16,7 +16,7 @@
     <header>
         <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top">
             <!-- Logo -->
-            <a class="navbar-brand logo" href="./index.html"><img class="rounded-circle" src="../img/logo.jpg" alt="Logo"></a>
+            <a class="navbar-brand logo ms-3" href="./index.html"><img class="rounded-circle" src="../img/logo.jpg" alt="Logo"></a>
             <!-- Hamburger Menu -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -49,7 +49,7 @@
         <article>
             <h1 class="row title text-white bg-primary">Machine Learning</h1>
             <div class="row description">
-                <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-10 offset-sm-1 mt-4 mb-4 ">
+                <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-10 offset-sm-1 mt-4 mb-4">
                     <p>Alguna vez escuchaste a alguien hablar de "Machine Learning" e "Inteligencia Artificial"?</p>
                     <p>En los siguientes videos les muestro como es posible entrar al mundo de la inteligencia artificial por medio de AutoCAD</p>
                     <p>Espero que les guste y se vienen más videos así!</p>
@@ -58,27 +58,37 @@
             </div>
         </article>
         <!-- Tabla de videos -->
-        <article class="mt-5 mb-5 row youtube-video-section">
-            <!-- Video 1 -->
-            <div class="col-xxl-4 offset-xxl-2 mt-4 mb-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/PxxN6lujNSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <section class="col-xxl-8 offset-xxl-2">
+            <div class="row row-cols-1 row-cols-md-2 ms-3 me-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <div class="ratio ratio-16x9">
+                            <iframe class="bs-card-video" src="https://www.youtube.com/embed/PxxN6lujNSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen width="100%" height="100%"></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">¿MACHINE LEARNING Y AUTOCAD?</h5>
+                            <p class="card-text">En esta ocasión les traigo nuevas ideas de cómo podemos integrar estas nuevas tecnologías como lo son el machine learning y deep learning que tanto se están haciendo notar en estos últimos años.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card">
+                        <div class="ratio ratio-16x9">
+                            <iframe class="bs-card-video" src="https://www.youtube.com/embed/AGMufnrUnTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+                        </div>
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">EXPLORANDO CHATGPT Y PYAUTOCAD</h5>
+                            <p class="card-text">En esta ocasión quise como no traerles mis pruebas utilizando el famoso ChatGPT de OpenAI para escribir código de pyautocad, y sinceramente estoy bastante impresionado con los resultados.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-xxl-4 ms-xxl-1 videoDescription">
-                <h2>¿MACHINE LEARNING Y AUTOCAD? </h2>
-                <p>En esta ocasión les traigo nuevas ideas de cómo podemos integrar estas nuevas tecnologías como lo son el machine learning y deep learning que tanto se están haciendo notar en estos últimos años </p>
-            </div>
-            <!-- Video 2 -->
-            <div class="col-xxl-4 offset-xxl-2 mt-4 mb-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/AGMufnrUnTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <div class="col-xxl-4 ms-xxl-1 videoDescription">
-                <h2>EXPLORANDO CHATGPT Y PYAUTOCAD</h2>
-                        <p>En esta ocasión quise como no traerles mis pruebas utilizando el famoso ChatGPT de OpenAI para escribir código de pyautocad, y sinceramente estoy bastante impresionado con los resultados.</p>
-            </div>
-        </article>
-
+        </section>
+        
         <!-- Link para el canal de YT -->
-        <section class="container mb-5" >
+        <section class="container mt-5 mb-5" >
             <div class="row">
                 <div class="col text-center">
                     <a class="btn btn-primary text-white" href="https://www.youtube.com/@AxelTag" target="_blank">Mas videos...</a>

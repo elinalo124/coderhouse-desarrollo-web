@@ -1,4 +1,5 @@
-$primary-font: 'Playfair Display', serif;
+$primary-font: Arial, Helvetica, sans-serif;
+
 @mixin flex-center{
 	display:flex;
 	justify-content:center;
@@ -25,4 +26,5 @@ $primary-font: 'Playfair Display', serif;
 .videoDescription {
     @include flex-center;
     flex-direction: column;
+    font-family: $primary-font;
 }

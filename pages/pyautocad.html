@@ -17,7 +17,7 @@
     <header>
         <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top">
             <!-- Logo -->
-            <a class="navbar-brand logo" href="./index.html"><img class="rounded-circle" src="../img/logo.jpg" alt="Logo"></a>
+            <a class="navbar-brand logo ms-3" href="./index.html"><img class="rounded-circle" src="../img/logo.jpg" alt="Logo"></a>
             <!-- Hamburger Menu -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -53,59 +53,76 @@
         <h1 class="row title text-white bg-primary">PyAutocad</h1>
 
         <!-- Tabla de videos -->
-        <article class="mt-5 mb-5 row youtube-video-section">
-            <!-- Video 1 -->
-            <div class="col-xxl-4 offset-xxl-2 col-12 mt-4 mb-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/AVz-yfZ-jcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <div class="col-xxl-4 ms-xxl-1 videoDescription">
-                <h2>APRENDE A AUTOMATIZAR TUS DIBUJOS</h2>
-                        <p>¡Hola mundo! Este es el primer video de la serie dedicada a Pyautocad, yo soy Axel y... ¡espero que salga algo bueno!    
-                        La misma tiene como objetivo explicar el uso de la librería Pyautocad, la cual es una librería que apunta asimplificar las tareas de automatización en Autocad, a partir del módulo Activex Automation.</p>
-                    
-            </div>
+        <section class="col-xxl-8 offset-xxl-2">
+            <div class="row row-cols-1 row-cols-md-2 ms-3 me-3 g-4">
+                <!-- Video 1 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9">
+                            <iframe class="bs-card-video" src="https://www.youtube.com/embed/AVz-yfZ-jcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">APRENDE A AUTOMATIZAR TUS DIBUJOS</h5>
+                            <p class="card-text">¡Hola mundo! Este es el primer video de la serie dedicada a Pyautocad, yo soy Axel y... ¡espero que salga algo bueno!    
+                                La misma tiene como objetivo explicar el uso de la librería Pyautocad, la cual es una librería que apunta asimplificar las tareas de automatización en Autocad, a partir del módulo Activex Automation.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 2 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9">
+                            <iframe class="bs-card-video" src="https://www.youtube.com/embed/sTuHd_JyQco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">UN EJEMPLO DE PROGRAMA</h5>
+                            <p class="card-text">¡Hola mundo! Este es el primer video de la serie dedicada a Pyautocad, yo soy Axel y... ¡espero que salga algo bueno!    
+                                La misma tiene como objetivo explicar el uso de la librería Pyautocad, la cual es una librería que apunta asimplificar las tareas de automatización en Autocad, a partir del módulo Activex Automation.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 3 -->
+                <div class="col">
+                        <div class="card h-100">
+                            <div class="ratio ratio-16x9">
+                                <iframe class="bs-card-video" src="https://www.youtube.com/embed/eWncevMglVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">NUESTRO "HOLA MUNDO"</h5>
+                                <p class="card-text">En este vídeo mostramos la primer función de Pyautocad, muy importante no olvidarse de esta. Además veremos un par de comandos de utilitarios.</p>
+                            </div>
+                    </div>
+                </div>
+                <!-- Video 4 -->
+                <div class="col">
+                    <div class="card h-100">
+                            <div class="ratio ratio-16x9">
+                                <iframe class="bs-card-video" src="https://www.youtube.com/embed/8HSxpkKIWfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">IMPORTANTE PUNTOS ESPACIALES: Apoint</h5>
+                                <p class="card-text">En este vídeo mostramos cómo definir puntos espaciales desde Pyautocad, muy importante para lo que se viene. También veremos cómo hacer operaciones aritméticas entre puntos que facilitan los cálculos a la hora de programar</p>
+                            </div>
+                    </div>
+                </div>
+                <!-- Video 5 -->
+                <div class="col">
+                    <div class="card h-100">
+                            <div class="ratio ratio-16x9">
+                                <iframe class="bs-card-video"  src="https://www.youtube.com/embed/AenoubmHp2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">BÁSICO PERO CLAVE COMANDO: AddLine</h5>
+                                <p class="card-text">En este vídeo mostramos cómo graficar líneas mediante Pyautocad de Python . Muy simple pero muy efectivo a la hora de automatizar dibujos en Autocad.</p>
+                            </div>
+                    </div>
+                </div>
 
-            <!-- Video 2 -->
-            <div class="col-xxl-4 offset-xxl-2 mt-4 mb-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/sTuHd_JyQco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <div class="col-xxl-4 ms-xxl-1 videoDescription">
-                <h2>UN EJEMPLO DE PROGRAMA</h2>
-                        <p>En esta ocasión quiero mostrarles un ejemplo de lo que podemos llegar a lograr sabiendo utilizar la librería Pyautocad, para tener una idea de lo que podemos automatizar, para luego entrar de lleno en los comandos que nos permitirán escribir código. 
-                        Recomiendo utilizar el IDLE de Pycharm para trabajar con Python, y crear nuestros programas o APIs para Autocad.</p>
-                    
-            </div>
+        </section>
 
-            <!-- Video 3 -->
-            <div class="col-xxl-4 offset-xxl-2 mt-4 mb-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/eWncevMglVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <div class="col-xxl-4 ms-xxl-1 videoDescription">
-                <h2>NUESTRO "HOLA MUNDO"</h2>
-                        <p>En este vídeo mostramos la primer función de Pyautocad, muy importante no olvidarse de esta. Además veremos un par de comandos de utilitarios.</p>
-                    
-            </div>
-
-            <!-- Video 4 -->
-            <div class="col-xxl-4 offset-xxl-2 mt-4 mb-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/8HSxpkKIWfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <div class="col-xxl-4 ms-xxl-1 videoDescription">
-                <h2>IMPORTANTE PUNTOS ESPACIALES: Apoint</h2>
-                <p>En este vídeo mostramos cómo definir puntos espaciales desde Pyautocad, muy importante para lo que se viene. También veremos cómo hacer operaciones aritméticas entre puntos que facilitan los cálculos a la hora de programar</p>
-            </div>
-
-            <!-- Video 5 -->
-            <div class="col-xxl-4 offset-xxl-2 mt-4 mb-4">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/AenoubmHp2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <div class="col-xxl-4 ms-xxl-1 videoDescription">
-                <h2>BÁSICO PERO CLAVE COMANDO: AddLine</h2>
-                <p>En este vídeo mostramos cómo graficar líneas mediante Pyautocad de Python . Muy simple pero muy efectivo a la hora de automatizar dibujos en Autocad.</p>
-            </div>
-        </article>
         <!-- Link para el canal de YT -->
-        <section class="container mb-5" >
+        <section class="container mb-5 mt-5" >
             <div class="row">
                 <div class="col text-center">
                     <a class="btn btn-primary text-white" href="https://www.youtube.com/@AxelTag" target="_blank">Mas videos...</a>
