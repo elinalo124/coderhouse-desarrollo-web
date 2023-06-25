@@ -1,3 +1,8 @@
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
 /* Header image */
 .logo img{
     height: 50px;
@@ -11,6 +16,12 @@
 
 /* Contact links images*/
 .contactLinks img{
-    height: 50px;
-    width: 50px;
+    @include sizes(50px, 50px);
+}
+
+/* Error page */
+.error-image {
+    display: block;
+    margin: auto;
+    @include sizes(400px, 400px);
 }

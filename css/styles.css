@@ -11884,6 +11884,14 @@ textarea.form-control-lg {
   width: 50px;
 }
 
+/* Error page */
+.error-image {
+  display: block;
+  margin: auto;
+  height: 400px;
+  width: 400px;
+}
+
 /* Textos generales */
 .title {
   display: flex;
